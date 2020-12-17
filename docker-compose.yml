@@ -1,0 +1,10 @@
+dnsmasq:
+  image: andyshinn/dnsmasq:2.80
+  container_name: dnsmasq
+  ports:
+    - "53:53/udp"
+    - "53:53/tcp"
+  extra_hosts:
+    - "www.google.co.jp:127.0.0.1"
+  cap_add:
+    - NET_ADMIN
