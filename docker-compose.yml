@@ -1,5 +1,5 @@
 dnsmasq:
-  image: andyshinn/dnsmasq:2.80
+  image: andyshinn/dnsmasq:2.81
   container_name: dnsmasq
   ports:
     - "53:53/udp"
