@@ -1,0 +1,2 @@
+# Create_DNS_Server_Container
+DNSサーバをDockerコンテナとして作成する。
