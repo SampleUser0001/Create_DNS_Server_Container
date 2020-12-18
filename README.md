@@ -4,7 +4,6 @@ DNSサーバをDockerコンテナとして作成する。
 - [Create_DNS_Server_Container](#create_dns_server_container)
   - [コマンド](#コマンド)
     - [コンテナ起動](#コンテナ起動)
-    - [動作確認](#動作確認)
   - [参考](#参考)
 
 ## コマンド
@@ -14,13 +13,6 @@ DNSサーバをDockerコンテナとして作成する。
 ```
 docker-compose up -d
 ```
-
-### 動作確認
-
-```
-curl www.google.co.jp --dns-servers 127.0.0.1
-```
-※ --dns-serversオプションはDebian, Ubuntu用ビルドcurlバイナリに含まれていない。
 
 
 
