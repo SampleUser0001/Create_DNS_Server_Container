@@ -10,6 +10,7 @@ DNSサーバをDockerコンテナとして作成する。
     - [DNS設定](#dns設定)
       - [Windows10の場合](#windows10の場合)
     - [設定確認](#設定確認)
+  - [備考](#備考)
   - [参考](#参考)
 
 ## コマンド
@@ -84,6 +85,10 @@ docker-compose up -d
 IPと同じ画面が出ることを確認。
 ![after](./image/after.png)
 
+## 備考
+
+- ドットレスドメインは指定できない。
+
 ## 参考
 
 - [DockerでDnsmasqを使った内部DNSサーバを構築するメモ](https://7me.nobiki.com/2020/04/22/dnsmasq-docker-memo/)
@@ -92,3 +97,4 @@ IPと同じ画面が出ることを確認。
   - curlでDNSサーバを指定する方法
 - [it-swarm-ja.tech:dnsオプションを使用してCURLを実行する際の問題](https://www.it-swarm-ja.tech/ja/networking/dns%E3%82%AA%E3%83%97%E3%82%B7%E3%83%A7%E3%83%B3%E3%82%92%E4%BD%BF%E7%94%A8%E3%81%97%E3%81%A6curl%E3%82%92%E5%AE%9F%E8%A1%8C%E3%81%99%E3%82%8B%E9%9A%9B%E3%81%AE%E5%95%8F%E9%A1%8C/997990830/)
   - curlのオプションが効かない
+- [JPNIC:ドットレスドメイン名(Dotless Domain Names)とは](https://www.nic.ad.jp/ja/basics/terms/dotless-domain-name.html)
