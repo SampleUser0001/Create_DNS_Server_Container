@@ -9,3 +9,7 @@ dnsmasq:
     - "hogehoge.local:192.168.1.13"
   cap_add:
     - NET_ADMIN
+webpage:
+  image: ittimfn/html5_css_javascript_programing_nginx:0.1
+  ports: 
+    - "80:80"
